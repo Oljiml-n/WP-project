@@ -1,0 +1,242 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Lato;
+    src: url(./Lato-Regular.ttf);
+}
+
+html,body {
+    font-family: Lato;
+}
+/* Main Styling */
+html,body {
+    line-height: 1.7em;
+    background-color: rgba(245, 248, 250, 1);
+}
+
+h1, h2, h3 {
+    padding-bottom: 20px;
+}
+
+p{
+    margin: 10px 0;
+}
+
+
+/* Container Styling */
+#container{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    margin-top: 70px;
+    height: 650px;
+    width: 1000px;
+}
+
+
+/* #container .container-center{
+
+} */
+
+
+.item{
+    flex: 1;
+}
+
+/* Checkout Section Style */
+.checkout{
+    background: rgba(255, 255, 255, 1);
+    border-radius: 5px;
+    flex: 2;
+    padding: 40px;
+    height: auto;
+    width: auto;
+}
+
+
+.checkout-H{
+    margin-bottom: 19px;
+}
+
+/* Freelanver section style */
+.freelancer{
+    color: #fff;
+    background: rgba(17, 121, 191, 1);
+    border-radius: 5px;
+    padding: 30px;
+}
+
+/* Navbar */
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+#navbar ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+} 
+
+#navbar ul li a {
+    color: #333;
+    text-decoration: none;
+    padding: 0.75rem;
+    margin: 0 0.25;
+    font-weight: bolder;
+}
+
+#navbar ul li a.current {
+    background-color: rgba(245, 248, 250, 1);
+    border: #333 solid ;
+    border-radius: 5px;
+}
+
+.dark-hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1));
+    margin-bottom: 5px;
+}
+.white-hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(250, 247, 247, 0.35), rgba(250, 247, 247, 0.35), rgba(250, 247, 247, 0.35));
+}
+
+button{
+    background-color: rgba(3, 142, 125, 1);
+    padding: 10px;
+}
+
+footer a {
+    text-decoration: none;
+    color: rgb(49, 112, 143, 1);
+}
+
+footer p{
+    color: rgba(99, 107, 111, 1);
+    text-align: center;
+    margin-top: 20px;
+}
+.checkout .powered{
+    color: #fff;
+    background: rgba(86, 100, 115, 0.9);
+    border: none;
+    border-radius: 5px;
+    padding: 1px;
+}
+
+.checkout .stripe {
+    font-weight: bolder;
+}
+
+.large-text{
+   margin-top: 60px;
+    font-size: 50px;
+}
+
+.dollar{
+    position: relative;
+    bottom: 23px;
+    right: 2px;
+}
+
+.link-freelancer{
+    color: #fff;
+    text-decoration: rgba(185, 245, 255, 1) underline;
+}
+
+.freelancer-top{
+    margin-bottom: 5px;
+}
+
+.free-benefits{
+    margin-top: 30px;
+    line-height: 1em;
+    margin-bottom: 30px;
+}
+
+.testimonial{
+    padding-bottom: 40px;
+    display: flex;
+}
+
+.testimonial img{
+    border-radius: 100%;
+}
+
+.testimonial-text{
+    margin-top: 25px;
+}
+
+.testimonial p {
+    margin-left: 20px;
+}
+
+.link-to-site {
+    line-height: 1em;
+    padding-bottom: 25px;
+}
+
+.fform{
+    display: grid;
+    grid-template-columns: auto auto;
+    padding-bottom: 20px;
+}
+
+.fform label {
+    display: block;
+}
+
+label{
+    display: block;    
+}
+
+input{
+    background-color: rgba(237, 239, 242, 1);
+    padding: 0.7rem;
+    width: 250px;
+    border-radius: 5px;
+}
+
+.question{
+    margin: 1rem;
+    border: rgba(84, 139, 197, 1);
+    border-radius: 100%;
+}
+
+.powered{
+    width: 140px;
+    font-size: 10px;
+    text-align: center;
+    margin: auto;
+}
+
+.support{
+    text-align: center;
+}
+
+.email-st input{
+    margin-bottom: 40px;
+    width: 430px;
+}
+
+.btn input{
+    margin-bottom: 40px;
+    width: 532px;
+}
+
+.button{
+    width: 532px;
+    text-align: center;
+    margin: auto;
+    border-radius: 5px;
+}
+
